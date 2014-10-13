@@ -28,12 +28,12 @@ locally or to where you wish to install Federated Wiki.*
   * running `npm install 'your-github-id'/wiki-node`, if you are using github
   for deployment, or
 
-  * if you modified `package.json` inplace by running `npm install` from within
+  * if you modified `package.json` inplace, by running `npm install` from within
   the modified directory. See [npm-install](https://www.npmjs.org/doc/cli/npm-install.html)
   for more ideas.
 
 5. When starting Federated Wiki you will need to tell it to use LevelDB. This
-is done by adding the following configuration setting
+is done by adding the following configuration setting:
 
 ```
 --database '{"type": "wiki-storage-leveldb"}'
@@ -46,5 +46,5 @@ Should there be a need to modify this package, there is a test file
 wiki-node-server repository that you are developing with.
 
 **N.B.** the plugin page
-test requires a copy of the `wiki-plugin-chart` repository to be alongside the
-wiki-node-server repository.
+testing also requires a copy of the `wiki-plugin-chart` repository to be alongside
+the wiki-node-server repository.

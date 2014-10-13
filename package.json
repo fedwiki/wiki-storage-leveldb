@@ -24,23 +24,8 @@
     "event-stream": "*",
     "level": "*"
   },
-  "scripts": {
-    "test": "mocha"
-  },
-  "devDependencies": {
-    "coffee-trace": "*",
-    "mocha": "*",
-    "should": "*",
-    "expect.js": "*",
-    "supertest": "*",
-    "wiki-client": "*",
-    "wiki-server": "*"
-  },
   "engines": {
     "node": "0.10"
-  },
-  "testling": {
-    "harness": "mocha"
   },
   "repository": {
     "type": "git",
